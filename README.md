@@ -10,7 +10,7 @@ chromedriver version must support chrome version, otherwise you'll get errors.<b
 Download the right version of chromedriver here:<br>
 https://chromedriver.chromium.org/downloads
 
-The path to google chrome and chromedriver can be found in cj.py source code.<br> 
+The path to google chrome and chromedriver can be found in <b>cj.py</b> source code.<br> 
 Change the paths if you have google-chrome and chromedriver located somewhere else.
 
 opts.binary_location = '/opt/google/chrome/google-chrome'<br>
@@ -23,7 +23,7 @@ $ ./cjlist.sh domains-list.txt
 
 //When test completed, you can view urls screenshots.<br>
 $ cd screenshots<br>
-$display *.png
+$ display *.png
 
 Then click on image to display imagemagic menu to keep moving to next screenshots with File > Next or > Former,<br>
 but it's easier to use the keyboard shortcuts (Spacebar for the next image and Backspace for the previous).<br>
