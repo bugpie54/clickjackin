@@ -69,7 +69,7 @@ driver = webdriver.Chrome(options=opts, service=service)
 driver.get(localurl)
 sleep(1)
 png = url[url.find('/')+2:]
-png = png.replace('/', '-') + '.png'
+png = png.replace('.', '-') + '.png'
 
 driver.get_screenshot_as_file(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'screenshots', png))
 
