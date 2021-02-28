@@ -1,10 +1,9 @@
 # Clickjackin
 
-Python3<br>
 This is a tool to test a list of urls for clickjacking vulnerability, and returns results as screenshots.
 
 <b>Requirements:</b><br>
-python3<br>
+Python3<br>
 Must have selenium, google-chrome and chromedriver installed.<br>
 chromedriver version must support chrome version, otherwise you'll get errors.<br>
 Download the right version of chromedriver here:<br>
